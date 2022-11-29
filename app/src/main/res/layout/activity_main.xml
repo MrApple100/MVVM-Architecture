@@ -40,7 +40,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="BABUXNUTi"
+        android:text="BABAXNUTi"
         android:onClick="@{()->viewmodel.ButtonClick()}"
         bind:resultmessagebind="@{viewmodel.resultMessage}">
 

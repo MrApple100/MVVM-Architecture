@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+       // setContentView(R.layout.activity_main);
         //Main2ViewModel main2ViewModel = ViewModelProviders.of(this).get(Main2ViewModel.class);
         Main3ViewModel main3ViewModel = ViewModelProviders.of(this).get(Main3ViewModel.class);
         ActivityMainBinding binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
